@@ -86,7 +86,7 @@ export const menuSections = [
 				price: 5.5,
 			},
 			{
-				title: "Hazelnut Frappé",
+				title: "Hazelnut Frappe",
 				description: "Iced espresso blended with hazelnut and cream.",
 				price: 5.75,
 			},

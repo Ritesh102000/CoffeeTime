@@ -7,10 +7,10 @@ const AboutUs = () => (
 	>
 		<img
 			src={aboutImage}
-			alt="Interior of Coffee Time café"
-			className="h-[320px] w-[320px] rounded-3xl object-cover shadow-lg md:h-[380px] md:w-[380px]"
+			alt="Interior of Coffee Time cafe"
+			className="h-[320px] w-[320px] rounded-3xl object-cover shadow-lg reveal-left md:h-[380px] md:w-[380px]"
 		/>
-		<div className="flex max-w-xl flex-col gap-4 text-center md:text-left">
+		<div className="flex max-w-xl flex-col gap-4 text-center reveal-right md:text-left">
 			<span className="font-Source text-xs uppercase tracking-[0.6em] text-primary">
 				Our Story
 			</span>

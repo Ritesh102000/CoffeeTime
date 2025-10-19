@@ -11,7 +11,7 @@ const testimonials = [
 		author: "Marcus Lin",
 	},
 	{
-		text: "Weekends at Coffee Time feel like a treat—brunch specials, smiling baristas, and the best mocha in the city. It’s our go-to spot for slow Sundays.",
+		text: "Weekends at Coffee Time feel like a treat - brunch specials, smiling baristas, and the best mocha in the city. It's our go-to spot for slow Sundays.",
 		author: "Daniela Ruiz",
 	},
 ];
@@ -38,11 +38,11 @@ const Comments = () => {
 
 	return (
 		<section className="mx-auto w-full max-w-6xl px-6 py-16">
-			<div className="flex flex-col items-center gap-6 rounded-[32px] border border-border bg-white px-8 py-12 text-center shadow-lg md:flex-row md:items-start md:text-left">
+			<div className="reveal flex flex-col items-center gap-6 rounded-[32px] border border-border bg-white px-8 py-12 text-center shadow-lg md:flex-row md:items-start md:text-left">
 				<img
 					src={comma}
 					alt="Quotation mark graphic"
-					className="h-14 w-14 flex-shrink-0 rounded-full bg-backgrounds p-3"
+					className="h-14 w-14 flex-shrink-0 rounded-full bg-backgrounds p-3 animate-float"
 				/>
 				<div className="space-y-4">
 					<p

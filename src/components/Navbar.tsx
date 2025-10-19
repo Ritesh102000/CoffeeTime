@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<header className="sticky top-0 z-40 bg-fill/90 backdrop-blur">
+		<header className="sticky top-0 z-40 bg-fill/90 shadow-sm backdrop-blur animate-slideDown">
 			<div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
 				<a
 					href="#home"
@@ -42,7 +42,7 @@ const Navbar = () => {
 				</button>
 			</div>
 			{open && (
-				<nav className="md:hidden">
+				<nav className="md:hidden animate-slideDown">
 					<ul className="space-y-3 border-t border-border bg-fill px-6 py-4 font-Source text-sm uppercase tracking-[0.35em] text-secondary">
 						{sections.map((section) => (
 							<li key={section.href}>

@@ -7,20 +7,27 @@ import Menu from "./components/Menu";
 import Comments from "./components/Comments";
 import Reservation from "./components/Reservation";
 import Footer from "./components/Footer";
+import useReveal from "./hooks/useReveal";
 
-const App = () => (
-	<div className="bg-backgrounds text-text">
-		<Navbar />
-		<main>
-			<Header />
-			<AboutUs />
-			<Services />
-			<Menu />
-			<Comments />
-			<Reservation />
-		</main>
-		<Footer />
-	</div>
-);
+const App = () => {
+	useReveal(".reveal");
+	useReveal(".reveal-left");
+	useReveal(".reveal-right");
+
+	return (
+		<div className="bg-backgrounds text-text">
+			<Navbar />
+			<main>
+				<Header />
+				<AboutUs />
+				<Services />
+				<Menu />
+				<Comments />
+				<Reservation />
+			</main>
+			<Footer />
+		</div>
+	);
+};
 
 export default App;
