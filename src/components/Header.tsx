@@ -4,14 +4,14 @@ import Button from "./Button";
 const Header = () => (
 	<section
 		id="home"
-		className="relative flex h-[520px] items-end justify-center overflow-hidden bg-cover bg-center px-4"
+		className="relative flex min-h-[520px] items-end justify-center bg-cover bg-center px-4 md:overflow-hidden"
 		style={{ backgroundImage: `url(${bgImg})` }}
 	>
 		<div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-black/15 to-black/25" />
 		<div className="pointer-events-none absolute -left-32 top-16 h-48 w-48 rounded-full bg-primary/30 blur-3xl animate-float" />
 		<div className="pointer-events-none absolute -right-24 bottom-12 h-60 w-60 rounded-full bg-secondary/20 blur-3xl animate-float" />
 
-		<div className="relative z-10 mb-[-90px] flex w-full max-w-5xl flex-col gap-8 rounded-[18px] border border-border/70 bg-fill/95 px-8 py-12 shadow-2xl backdrop-blur-sm md:flex-row md:items-center md:justify-between md:px-12">
+		<div className="relative z-10 mb-[-50px] flex w-full max-w-5xl flex-col gap-8 rounded-[18px] border border-border/70 bg-fill/95 px-6 py-10 shadow-2xl backdrop-blur-sm md:mb-[-90px] md:flex-row md:items-center md:justify-between md:px-12 md:py-12">
 			<div className="max-w-xl space-y-5 reveal">
 				<span className="font-Source text-xs uppercase tracking-[0.6em] text-primary">
 					San Francisco - Est. 2016

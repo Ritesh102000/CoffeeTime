@@ -13,7 +13,7 @@ const Services = () => (
 			{services.map((item, index) => (
 				<div
 					key={item.title}
-					style={{ transitionDelay: `${index * 120}ms` }}
+					style={{ transitionDelay: `${index * 80}ms` }}
 					className="reveal flex flex-col items-center gap-4 rounded-3xl border border-border bg-white px-6 py-8 text-center shadow-md transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl"
 				>
 					<img src={item.icon} alt={item.title} className="h-12 w-12 animate-float" />

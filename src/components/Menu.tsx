@@ -14,7 +14,7 @@ const Menu = () => (
 			{menuSections.map((section, sectionIndex) => (
 				<div
 					key={section.title}
-					style={{ transitionDelay: `${sectionIndex * 120}ms` }}
+					style={{ transitionDelay: `${sectionIndex * 80}ms` }}
 					className="space-y-6 reveal"
 				>
 					<h3 className="font-Bebas text-[34px] text-text">{section.title}</h3>
@@ -22,7 +22,7 @@ const Menu = () => (
 						{section.items.map((item, itemIndex) => (
 							<div
 								key={item.title}
-								style={{ transitionDelay: `${itemIndex * 90}ms` }}
+								style={{ transitionDelay: `${itemIndex * 60}ms` }}
 								className="reveal group flex flex-col gap-3 rounded-2xl border border-transparent px-4 py-3 transition-all duration-300 hover:border-primary/40 hover:bg-primary/5"
 							>
 								<div className="flex items-center gap-3">
