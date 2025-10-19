@@ -16,8 +16,8 @@ const Reservation = () => (
 				save the cozy nook by the window.
 			</p>
 			<div className="font-Source text-sm text-secondary/80 space-y-1">
-				<p>📍 174 Market Street, San Francisco, CA</p>
-				<p>☎️ +1 (628) 555-0199</p>
+				<p>📍 508 North H St Lompoc, CA 93436</p>
+				<p>☎️ +1 (805) 736-2233</p>
 				<p>✉️ hello@coffeetimecafe.com</p>
 			</div>
 		</div>
